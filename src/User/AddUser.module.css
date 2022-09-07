@@ -1,0 +1,44 @@
+.sunil {
+  color: blue;
+}
+input {
+  width: 100%;
+  /* height: 30px; */
+  padding: 5px;
+  border: none;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+input:focus{
+  outline: none;
+}
+input[type="text"],
+input[type="number"] {
+  font-size: 20px;
+}
+.input1,
+.input2 {
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+ 
+}
+form {
+  width: 100%;
+}
+label {
+  padding-bottom: 3px;
+}
+button {
+  padding: 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+ 
+}
